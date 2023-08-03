@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>area calculator</title>
+</head>
+<body>
+  <h1 align="center">area calculator</h1>
+  <h2 align="center">rectangle</h2>
+  <div align="center">
+     <form>
+       height
+       <br>
+        <input type="number" id="height" />
+       <br>
+       width
+       <br>
+       <input type="number" id="width" />
+      <br>
+      <input type="button" onClick="rectangle()" value="Click" />
+      <br>
+      <p>area of the rectangle is:</p>
+      <input type="text" id="rarea" />
+
+      <br>
+     </form>
+
+  </div>
+  <div align="center">
+   <h2>square</h2>
+   <form>
+    length: 
+    <br>
+    <input type="number" id="length" />
+    <br>
+    <input type="button" onClick="square()" value="Click" />
+    <br>
+    <p style>area square is: </p>
+    <input type="text" id="sarea" > 
+      <br>
+   </form>
+ 
+  </div>
+  <div align="center">
+    <h2>triangle</h2>
+    <form>
+       base: 
+       <br>
+       <input type="number" id="base" />
+       <br>
+       height:
+       <br>
+       <input type="number" id="h" />
+       <br>
+       <input type="button" onClick="triangle()" value="Click()">
+       <br>
+       <p>area triangle is: </p>
+       <input type="text" id="tarea" />
+       <br> 
+    </form>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
